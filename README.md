@@ -1,0 +1,24 @@
+# Secure-iOS-Guidelines
+
+  - Avoid cached application
+  - User and Application data stored securely
+  - SQLCipher
+  - Keychain
+  - Decryption key generation – Use iOS AES Crypto library 
+  - Proper use of Keychain 
+  - Use of protection classes
+  - Prevent the backup 
+  - Insecure Deletion of Data
+  - Caching of HTTP Request/Response, Default behavior will cache it into cache.db file
+  - Use of Authentication Token 
+  - Always Obscure sensitive value in UI
+  - Insecure transmission of data
+  - Certificate Pinning must be there
+  - Sensitive data in Query string 
+  - Disable logs 
+  - Request/Resource timeout
+  - Drain sensitive data from device memory
+  - Insecure Backup
+  - Implement Anti tempering technique
+  - Detect the debugger attached or Trace checking
+  - Use of UIWebView to prevent framing
