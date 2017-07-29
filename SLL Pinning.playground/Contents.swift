@@ -7,7 +7,8 @@ struct APIS {
 }
 
 /*
- * Certificate/SSL Pinning.
+ * Certificate/SSL Pinning Example.
+ * Written code offline, once verify will post the updated one.
  */
 
 typealias ResponseBlock = (Bool) -> ()
