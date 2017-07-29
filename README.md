@@ -1,19 +1,22 @@
 # Secure-iOS-Guidelines
 
   - Avoid cached application
-  - Detection device compatibility use above mentioned `Objective C` file for
+  - Detection device compatibility use above mentioned `Objective C` file for verifying.
       - (float) firmwareVersion;
       - (BOOL) isDeviceJailbroken;
       - (BOOL) isAppVersionCracked;
       - (BOOL) isAppStoreVersion;
+  - Detection Debugger. Use above mentioned `Objective C`
+      - (bool) AmIBeingDebugged;
   - User and Application data stored securely
-  - SQLCipher
-  - Keychain
-  - Decryption key generation – Use iOS AES Crypto library 
-  - Proper use of Keychain 
-  - Use of protection classes
-  - Prevent the backup 
-  - Insecure Deletion of Data
+      - SQLCipher
+      - Keychain
+      - Decryption key generation – Use iOS AES Crypto library 
+  - Proper use of Keychain
+      - Remove back up policies.
+      - Use of protection classes
+  - Prevent the backup for Keychain and files with in document directory.
+  - Prevent insecure ways of deletion the Data
   - Caching of HTTP Request/Response, Default behavior will cache it into cache.db file
   - Use of Authentication Token 
   - Always Obscure sensitive value in UI
