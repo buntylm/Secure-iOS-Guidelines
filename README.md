@@ -16,7 +16,7 @@
       - Remove back up policies.
       - Use of protection classes
   - Prevent the backup for Keychain and files with in document directory.
-  - Insecure Deletion of Data
+  - Prevent insecure ways of deletion the Data
   - Caching of HTTP Request/Response, Default behavior will cache it into cache.db file
   - Use of Authentication Token 
   - Always Obscure sensitive value in UI
