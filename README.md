@@ -1,11 +1,13 @@
 # Secure-iOS-Guidelines
 
   - Avoid cached application
-  - Detection device compatibility use above mentioned `Objective C` file for
+  - Detection device compatibility use above mentioned `Objective C` file for verifying.
       - (float) firmwareVersion;
       - (BOOL) isDeviceJailbroken;
       - (BOOL) isAppVersionCracked;
       - (BOOL) isAppStoreVersion;
+  - Detection Debugger. Use above mentioned `Objective C`
+      - (bool) AmIBeingDebugged;
   - User and Application data stored securely
   - SQLCipher
   - Keychain
