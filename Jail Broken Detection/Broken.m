@@ -99,7 +99,7 @@
 /*
  *  Check if app is downloaded from App store.
  */
-- (BOOL) isAppStoreVersion()    {
+- (BOOL) isAppStoreVersion    {
 #if TARGET_IPHONE_SIMULATOR
     return NO;
 #else
@@ -114,7 +114,7 @@
 /*
  * Check if app is cracked or not.
  */
-- (BOOL) isAppVersionCracked() {
+- (BOOL) isAppVersionCracked {
 #if !TARGET_IPHONE_SIMULATOR
     return NO;
 #else
