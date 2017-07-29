@@ -9,12 +9,13 @@
   - Detection Debugger. Use above mentioned `Objective C`
       - (bool) AmIBeingDebugged;
   - User and Application data stored securely
-  - SQLCipher
-  - Keychain
-  - Decryption key generation – Use iOS AES Crypto library 
-  - Proper use of Keychain 
-  - Use of protection classes
-  - Prevent the backup 
+      - SQLCipher
+      - Keychain
+      - Decryption key generation – Use iOS AES Crypto library 
+  - Proper use of Keychain
+      - Remove back up policies.
+      - Use of protection classes
+  - Prevent the backup for Keychain and files with in document directory.
   - Insecure Deletion of Data
   - Caching of HTTP Request/Response, Default behavior will cache it into cache.db file
   - Use of Authentication Token 
