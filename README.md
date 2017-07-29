@@ -1,6 +1,11 @@
 # Secure-iOS-Guidelines
 
   - Avoid cached application
+  - Detection device compatibility use above mentioned `Objective C` file for
+      - (float) firmwareVersion;
+      - (BOOL) isDeviceJailbroken;
+      - (BOOL) isAppVersionCracked;
+      - (BOOL) isAppStoreVersion;
   - User and Application data stored securely
   - SQLCipher
   - Keychain
