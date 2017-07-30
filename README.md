@@ -15,32 +15,32 @@ Talk at [@GoJek](https://www.meetup.com/SwiftBengaluru/events/241324289/). Poste
       - Caching of HTTP Request/Response, the default behavior will cache it into cache.db file
       - Drain sensitive data from device memory.
       - Prevent the backup for Keychain data and files with in document directory because if you take back up using iTunes it will sync it.
-  - Detection device compatibility use above mentioned `Objective C` file for verifying.
+  - [Detection device compatibility](https://github.com/buntylm/Secure-iOS-Guidelines/tree/master/Jail%20Broken%20Detection) use above mentioned `Objective C` file for verifying.
   ```sh
       - (float) firmwareVersion;
       - (BOOL) isDeviceJailbroken;
       - (BOOL) isAppVersionCracked;
       - (BOOL) isAppStoreVersion;
   ```
-  - Detection Debugger. Use above mentioned `Objective C`
+  - [Detection Debugger](https://github.com/buntylm/Secure-iOS-Guidelines/tree/master/DetectDebugger) Use above mentioned `Objective C`
   ```sh
       - (bool) AmIBeingDebugged;
   ```
   - User and Application data stored securely
       - SQLCipher
       - Keychain
-      - Decryption key generation – Use iOS AES Crypto library 
+      - Decryption [key generation](https://github.com/buntylm/Secure-iOS-Guidelines/tree/master/Generate%20AES%20Key.playground) – Use iOS AES Crypto library 
   - Proper use of Keychain
       - Remove back up policies.
       - Use of protection classes
   - Prevent insecure ways of deletion the Data
   - Use of Authentication Token if making an HTTP request
   - Always Obscure sensitive value in UI
-  - Certificate Pinning must be there
+  - [Certificate Pinning](https://github.com/buntylm/Secure-iOS-Guidelines/tree/master/SLL%20Pinning.playground) must be there
   - Sensitive data in Query string 
   - Disable logs if your using `NSLOG` or `print`
   - handle Request/Resource timeout properly
   - Insecure Backup, if taking back up of data/files/request make it secure.
   - Implement Anti tempering technique.
-  - Detect the debugger attached or Trace checking.
+  - Detect the [debugger attached or Trace checking](https://github.com/buntylm/Secure-iOS-Guidelines/tree/master/DetectDebugger)
   - Use of UIWebView to prevent framing.
