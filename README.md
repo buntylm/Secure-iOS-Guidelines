@@ -1,5 +1,7 @@
 # Developing Secure iOS Apps 
 
+#### ⭐️ - Star the repo for future updates
+
 ### About
 The reason why the repo is here because secure coding is the practice of writing programs that are resistant to attack by malicious or mischievous people or programs. Secure coding helps protect a user’s data from theft or corruption.
     
@@ -46,7 +48,7 @@ Talk at [@GoJek](https://www.meetup.com/SwiftBengaluru/events/241324289/). Poste
   - Use of UIWebView to prevent framing.
   
   ### Contact
-Looking forward to hearing 
+Looking forward to see you. 
   - [@Twitter](https://twitter.com/buntylm)
   - [@Stackoverflow](https://stackoverflow.com/users/1603380/buntylm)
   - For blogs, please follow [BMNotes.com](https://bmnotes.com/)
