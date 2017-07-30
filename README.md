@@ -16,12 +16,16 @@ Talk at [@GoJek](https://www.meetup.com/SwiftBengaluru/events/241324289/). Poste
       - Drain sensitive data from device memory.
       - Prevent the backup for Keychain and files with in document directory because if you take back up using iTunes it will take complete back of your document directory and keychain.
   - Detection device compatibility use above mentioned `Objective C` file for verifying.
+  ```sh
       - (float) firmwareVersion;
       - (BOOL) isDeviceJailbroken;
       - (BOOL) isAppVersionCracked;
       - (BOOL) isAppStoreVersion;
+  ```
   - Detection Debugger. Use above mentioned `Objective C`
+  ```sh
       - (bool) AmIBeingDebugged;
+  ```
   - User and Application data stored securely
       - SQLCipher
       - Keychain
