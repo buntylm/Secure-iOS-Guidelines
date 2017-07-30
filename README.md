@@ -44,3 +44,9 @@ Talk at [@GoJek](https://www.meetup.com/SwiftBengaluru/events/241324289/). Poste
   - Implement Anti tempering technique.
   - Detect the [debugger attached or Trace checking](https://github.com/buntylm/Secure-iOS-Guidelines/tree/master/DetectDebugger)
   - Use of UIWebView to prevent framing.
+  
+  ### Contact
+Looking forward to hearing 
+  - [@Twitter](https://twitter.com/buntylm)
+  - [@Stackoverflow](https://stackoverflow.com/users/1603380/buntylm)
+  - For blogs, please follow [BMNotes.com](https://bmnotes.com/)
