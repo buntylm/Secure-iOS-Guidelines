@@ -36,7 +36,7 @@ Talk at [@GoJek](https://www.meetup.com/SwiftBengaluru/events/241324289/). Poste
   - Prevent insecure ways of deletion the Data
   - Use of Authentication Token if making an HTTP request
   - Always Obscure sensitive value in UI
-  - [Certificate Pinning](https://github.com/buntylm/Secure-iOS-Guidelines/tree/master/SLL%20Pinning.playground) must be there
+  - [Certificate Pinning](https://github.com/buntylm/Secure-iOS-Guidelines/tree/master/SLL%20Pinning.playground) must be there, Please review blog for [more about SSL/Certificate Pinning](https://bmnotes.com/2017/07/30/make-your-ios-apps-more-secure-with-ssl-pinning/))
   - Sensitive data in Query string 
   - Disable logs if your using `NSLOG` or `print`
   - handle Request/Resource timeout properly
