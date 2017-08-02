@@ -28,7 +28,7 @@ Talk at [@GoJek](https://www.meetup.com/SwiftBengaluru/events/241324289/). Poste
   ```sh
       - (bool) AmIBeingDebugged;
   ```
-  - User and Application data stored securely
+  - User and Application data stored securely. If storing sensitive data on the device is the application requirement, you must add an additional layer for verification, third-party encryption.Whenever encrypting user data, you must encrypt it using a randomly generated master key. iOS implements standard crypto libraries such as AES that can be used to secure data.
       - SQLCipher
       - Keychain
       - Decryption [key generation](https://github.com/buntylm/Secure-iOS-Guidelines/tree/master/Generate%20AES%20Key.playground) – Use iOS AES Crypto library 
@@ -46,6 +46,9 @@ Talk at [@GoJek](https://www.meetup.com/SwiftBengaluru/events/241324289/). Poste
   - Implement Anti tempering technique.
   - Detect the [debugger attached or Trace checking](https://github.com/buntylm/Secure-iOS-Guidelines/tree/master/DetectDebugger)
   - Use of UIWebView to prevent framing.
+  - Avoid cached application snapshots
+        - To protect sensitive data, application must block caching of snapshots using API configuration/Code. When `applicationDidEnterBackground:` returns, the snapshot of the iOS application UI is taken, and used for transition animations, stored in the file system. This method should be overridden, all the sensitive information in the user interface should be removed before it returns.
+
   
   ### Contact
 Looking forward to see you. 
