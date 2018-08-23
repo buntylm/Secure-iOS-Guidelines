@@ -3,10 +3,10 @@
 #### ⭐️ - Star the repo for future updates
 
 ### About
-The reason why the repo is here because secure coding is the practice of writing programs that are resistant to attack by malicious or mischievous people or programs. Secure coding helps protect a user’s data from theft or corruption.
+Secure coding is the practice of writing programs that are resistant to attack by malicious or mischievous people or programs. Secure coding helps protect a user’s data from theft or corruption.
     
 ### Need Contribution
-For helping the community we need a day to day support from everyone, please feel free to post whatever you are learning day to day. Happy Learning!
+Please feel free to post whatever you are learning day to day. Happy Learning!
 
 ### Swift Developer Meet
 Talk at [@GoJek](https://www.meetup.com/SwiftBengaluru/events/241324289/). Posted all slides at [slideshare.net](https://www.slideshare.net/BuntyMadan/ios-security-secureiosguidelines-apple-ios-swift) or you can download from [GIT](https://github.com/buntylm/Secure-iOS-Guidelines/blob/master/iOS-Security.pptx)
