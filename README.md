@@ -50,8 +50,6 @@ Talk at [@GoJek](https://www.meetup.com/SwiftBengaluru/events/241324289/). Poste
         - To protect sensitive data, application must block caching of snapshots using API configuration/Code. When `applicationDidEnterBackground:` returns, the snapshot of the iOS application UI is taken, and used for transition animations, stored in the file system. This method should be overridden, all the sensitive information in the user interface should be removed before it returns.
 
   
-  ### Contact
-Looking forward to see you. 
-  - [@Twitter](https://twitter.com/buntylm)
-  - [@Stackoverflow](https://stackoverflow.com/users/1603380/buntylm)
-  - For blogs, please follow [BMNotes.com](https://bmnotes.com/)
+## Contact
+[BMNotes.com](https://BMNotes.com) | 
+[@buntylm](https://twitter.com/buntylm)
