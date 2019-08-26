@@ -38,6 +38,18 @@ Talk at [@GoJek](https://www.meetup.com/SwiftBengaluru/events/241324289/). Poste
   - [Certificate Pinning](https://github.com/buntylm/Secure-iOS-Guidelines/tree/master/SLL%20Pinning.playground) must be there, Please review blog for [more about SSL/Certificate Pinning](https://bmnotes.com/2017/07/30/make-your-ios-apps-more-secure-with-ssl-pinning/))
   - Sensitive data in Query string 
   - Disable logs if your using `NSLOG` or `print`
+  
+  ```
+  public class Logger {
+        public static func debug(_ message: String? = nil, file: String = #file, function: String = #function, line: Int = #line ) {
+        #if DEBUG
+        NSLog("\(DEBUG) \(getBody(file: file, function: function, line: line, message: message))")
+        #endif
+    }
+  ```
+  
+  
+  
   - handle Request/Resource timeout properly
   - Insecure Backup, if taking back up of data/files/request make it secure.
   - Implement Anti tempering technique.
