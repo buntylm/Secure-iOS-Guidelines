@@ -48,8 +48,6 @@ Talk at [@GoJek](https://www.meetup.com/SwiftBengaluru/events/241324289/). Poste
     }
   ```
   
-  
-  
   - handle Request/Resource timeout properly
   - Insecure Backup, if taking back up of data/files/request make it secure.
   - Implement Anti tempering technique.
